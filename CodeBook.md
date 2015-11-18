@@ -205,4 +205,26 @@ The R script does the following:
 4) Appropriately labels the data set with descriptive variable names. 
 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+In particular the script makes the following steps:
+
+- load the library dplyr
+- Load the list of the variables names
+- Load the list of the activities names and the corresponding identifiers
+- Load test data
+- Select a subset containing mean and std values
+- Load activity identifiers relative to the test data
+- Substitute the activity identifier with the descriptive name of the activity
+- Load subject identifiers relative to the test data
+- Add the two new columns (activity and subject) to the test data
+- Load train data
+- Select a subset containing mean and std values
+- Load activity identifiers relative to the train data
+- Substitute the activity identifier with the descriptive name of the activity
+- Load subject identifiers relative to the train data
+- Add the two new columns (activity and subject) to the train data
+- Create a new dataset (data) merging the test and training data
+- Clean environment
+- Group the dataset by activity and subject 
+- For each variables (except activity and subject) compute the average of the values collected in the dataset (data)
+
 
