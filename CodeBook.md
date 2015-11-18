@@ -240,4 +240,5 @@ In particular the script makes the following steps:
 - Group the dataset by activity and subject 
 - For each variables (except activity and subject) compute the average of the values collected in the dataset (data)
 
+The script return the tidy dataset called "data".
 
