@@ -33,7 +33,6 @@ You should create one R script called run_analysis.R that does the following.
 (From the README.txt of the dataset)
 
 For each record it is provided:
-======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -42,7 +41,6 @@ For each record it is provided:
 - An identifier of the subject who carried out the experiment.
 
 The dataset includes the following files:
-=========================================
 
 - 'README.txt'
 
@@ -113,3 +111,10 @@ The course project consists of the following files:
 - Unzipped dataset folder called "UCI HAR Dataset". The dataset could be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - CodeBook.md : The code book with the explanation of all the variables and how the data is treated.
 - run_analysis.R : the R script that takes the raw data as input and returns a tidy dataset called "data" as required by the course project guidelines.
+
+# Instructions
+
+- Read CodeBook.md
+- Download and unzip the raw dataset in your working directory
+- Source the run_analysis.R file
+- View the tidy dataset "data"
