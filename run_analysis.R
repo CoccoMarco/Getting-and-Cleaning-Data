@@ -6,6 +6,7 @@
 # 
 # A description of the variables, the raw data, the processing and the aim of the project
 # are included in the CodeBook.md and README.md files available on my github page:
+# https://github.com/CoccoMarco/Getting-and-Cleaning-Data
 #
 # This is the main script in R to obtain a tidy dataset from the raw data available
 # at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
